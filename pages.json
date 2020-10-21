@@ -1,0 +1,1428 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "亿客拉",
+				"navigationBarBackgroundColor":"#F2F2F2",
+				"navigationBarTextStyle":"black",
+				"enablePullDownRefresh": false,
+				"backgroundColorTop": "#fe6248",
+				"backgroundColorBottom": "#F8F8F8",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"titleNView": {
+						"buttons": [{
+							"text": "签到",
+							"fontSize": "16px",
+							"color": "#000"
+						}],
+						"padding-right": "10px"
+					},
+					"bounce":"none"
+					// "pullToRefresh": {
+					// 	"color": "#fe6248",
+					// 	"style": "circle"
+					// }
+				}
+			}
+		},
+		{
+			"path": "pages/index/task",
+			"style": {
+				"navigationBarTitleText": "接浏览/垫付任务",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/Newbie_task_list",
+			"style": {
+				"navigationBarTitleText": "新手任务",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/new_Examination",
+			"style": {
+				"navigationBarTitleText": "新手考试",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/personal_head_set",
+			"style": {
+				"navigationBarTitleText": "用户信息设置",
+				"app-plus": {
+					"bounceBackground": "#ffffff",
+
+					"titleNView": {
+						"buttons": [{
+							"text": "保存",
+							"fontSize": "16px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/Newbie_task_teach",
+			"style": {
+				"navigationBarTitleText": "新手教学",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/ground_push",
+			"style": {
+				"navigationBarTitleText": "接地推任务",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/new_detail",
+			"style": {
+				"navigationBarTitleText": "任务详情",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/new_detailJd",
+			"style": {
+				"navigationBarTitleText": "任务详情",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/new_detailPinDuoDuo",
+			"style": {
+				"navigationBarTitleText": "任务详情",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/new_detailDouyin",
+			"style": {
+				"navigationBarTitleText": "任务详情",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/new_opeartion",
+			"style": {
+				"navigationBarTitleText": "任务操作",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/task_operation",
+			"style": {
+				"navigationBarTitleText": "任务操作",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/task_operationJd",
+			"style": {
+				"navigationBarTitleText": "任务操作",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/task_operationPinDuoDuo",
+			"style": {
+				"navigationBarTitleText": "任务操作",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/task_operationDouyin",
+			"style": {
+				"navigationBarTitleText": "任务操作",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/new_task_progress",
+			"style": {
+				"navigationBarTitleText": "任务进度",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/zhanghao",
+			"style": {
+				"navigationBarTitleText": "选择刷单账号",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/zhanghaoJd",
+			"style": {
+				"navigationBarTitleText": "选择刷单账号",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/zhanghaoPinDuoDuo",
+			"style": {
+				"navigationBarTitleText": "选择刷单账号",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/zhanghaoDouyin",
+			"style": {
+				"navigationBarTitleText": "选择刷单账号",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/task/self_trial",
+			"style": {
+				"navigationBarTitleText": "自审任务信息",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/task/submit_evaluation",
+			"style": {
+				"navigationBarTitleText": "确认收货并好评",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/tasklist",
+			"style": {
+				"navigationBarTitleText": "请选择任务",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/detail",
+			"style": {
+				"navigationBarTitleText": "任务操作",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/copyOrderNum",
+			"style": {
+				"navigationBarTitleText": "绑定淘宝编号",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/task/earthDetail",
+			"style": {
+				"navigationBarTitleText": "地推任务操作",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/index",
+			"style": {
+				"navigationBarTitleText": "个人中心", // 我的 
+				"backgroundColorTop":"#fe6248",
+				"backgroundColorBottom":"#f2f2f2",
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			}
+		},
+
+		{
+			"path": "pages/ucenter/login",
+			"style": {
+				"navigationBarTitleText": "  ",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"backgroundColor": "#ffffff",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"titleNView":false,
+					"bounce": "none"
+// 					"titleNView": {
+// 						"buttons": [{
+// 							"text": "注册",
+// 							"fontSize": "18px",
+// 							"color": "#333333"
+// 						}],
+// 						"padding-right": "10px"
+// 					}
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/register",
+			"style": {
+				"navigationBarTitleText": "  ",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"backgroundColor": "#ffffff",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/tool/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/setting",
+			"style": {
+				"navigationBarTitleText": "我的设置",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/tool/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/phone",
+			"style": {
+				"navigationBarTitleText": "修改手机号",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/buynumber",
+			"style": {
+				"navigationBarTitleText": "帐号绑定",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/securityinfo",
+			"style": {
+				"navigationBarTitleText": "认证信息",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/idcardInfo",
+			"style": {
+				"navigationBarTitleText": "身份证绑定",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/clearIdcard",
+			"style": {
+				"navigationBarTitleText": "解绑信息验证",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/bindBuyer",
+			"style": {
+				"navigationBarTitleText": "买号绑定",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/bindBuyerJd",
+			"style": {
+				"navigationBarTitleText": "买号绑定",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/bindBuyerPinDuoDuo",
+			"style": {
+				"navigationBarTitleText": "买号绑定",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/bindBuyerDouyin",
+			"style": {
+				"navigationBarTitleText": "买号绑定",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/BuyerInfo",
+			"style": {
+				"navigationBarTitleText": "账号详情",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "保存",
+							"fontSize": "16px",
+							"color": "#fff"
+						}],
+						"padding-right": "10px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/BuyerInfoJd",
+			"style": {
+				"navigationBarTitleText": "账号详情",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "保存",
+							"fontSize": "16px",
+							"color": "#fff"
+						}],
+						"padding-right": "10px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/BuyerInfoPinDuoDuo",
+			"style": {
+				"navigationBarTitleText": "账号详情",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "保存",
+							"fontSize": "16px",
+							"color": "#fff"
+						}],
+						"padding-right": "10px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/BuyerInfoDouyin",
+			"style": {
+				"navigationBarTitleText": "账号详情",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "保存",
+							"fontSize": "16px",
+							"color": "#fff"
+						}],
+						"padding-right": "10px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/buyerlist",
+			"style": {
+				"navigationBarTitleText": "买号列表",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/buyerlist_jd",
+			"style": {
+				"navigationBarTitleText": "买号列表",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/buyerlist_pinduoduo",
+			"style": {
+				"navigationBarTitleText": "买号列表",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/buyerlist_douyin",
+			"style": {
+				"navigationBarTitleText": "买号列表",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/category",
+			"style": {
+				"navigationBarTitleText": "购物类目选择",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/activity/union",
+			"style": {
+				"navigationBarTitleText": "邀请好友",
+				"navigationBarBackgroundColor": "#F78233",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+							"text": "\ue603",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px"
+						}],
+						"padding-right": "1px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/activity/unionlist",
+			"style": {
+				"navigationBarTitleText": "我的团队",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#ffffff",
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					},
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue660",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/activity/unionDetail",
+			"style": {
+				"navigationBarTitleText": "邀请明细",
+				"app-plus": {
+					"bounceBackground": "#ffffff"
+				}
+			}
+		},
+		{
+			"path": "pages/detail/content",
+			"style": {
+				"navigationBarTitleText": "内容详情",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/detail/notice",
+			"style": {
+				"navigationBarTitleText": "公告中心",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/message/new_message",
+			"style": {
+				"navigationBarTitleText": "我的消息 ",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce":"none"
+					// "pullToRefresh": {
+					// 	"color": "#fe6248",
+					// 	"style": "circle"
+					// }
+				}
+			}
+		},
+		{
+			"path": "pages/message/chat",
+			"style": {
+				"navigationBarTitleText": "聊天窗口",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue6b1",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/index",
+			"style": {
+				"navigationBarTitleText": "任务概况",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/order_info",
+			"style": {
+				"navigationBarTitleText": "任务详情",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/task/search",
+			"style": {
+				"navigationBarTitleText": "任务搜索",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/task/searchJd",
+			"style": {
+				"navigationBarTitleText": "任务搜索",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/task/searchPinDuoDuo",
+			"style": {
+				"navigationBarTitleText": "任务搜索",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/task/appeal",
+			"style": {
+				"navigationBarTitleText": "任务申诉",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/task/clear",
+			"style": {
+				"navigationBarTitleText": "取消任务",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/task/list",
+			"style": {
+				"navigationBarTitleText": "垫付任务列表",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 10,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue613",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "20px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					},
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/listJd",
+			"style": {
+				"navigationBarTitleText": "垫付任务列表",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue613",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "20px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					},
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/listPinDuoDuo",
+			"style": {
+				"navigationBarTitleText": "垫付任务列表",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue613",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "20px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					},
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/browse",
+			"style": {
+				"navigationBarTitleText": "浏览任务列表",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue613",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "20px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					},
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/browseJd",
+			"style": {
+				"navigationBarTitleText": "浏览任务列表",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue613",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "20px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					},
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/browsePinDuoDuo",
+			"style": {
+				"navigationBarTitleText": "浏览任务列表",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue613",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "20px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					},
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/browseDouyin",
+			"style": {
+				"navigationBarTitleText": "浏览任务列表",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue613",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "20px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					},
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/earthpush",
+			"style": {
+				"navigationBarTitleText": "垫付任务列表",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue613",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "20px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					},
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/evaluateInfo",
+			"style": {
+				"navigationBarTitleText": "评价要求",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/detail/noviceTask",
+			"style": {
+				"navigationBarTitleText": "新手任务",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/detail/noviceTest",
+			"style": {
+				"navigationBarTitleText": "新手考试",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/score/log",
+			"style": {
+				"navigationBarTitleText": "佣金收益",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"titleNView": {
+						"buttons": [{
+							"text": "提现",
+							"fontSize": "16px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					},
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/score/zblog",
+			"style": {
+				"navigationBarTitleText": "众包收益",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"titleNView": {
+						"buttons": [{
+							"text": "提现",
+							"fontSize": "16px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					},
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/score/logDetail",
+			"style": {
+				"navigationBarTitleText": "佣金收益明细",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/score/putforward",
+			"style": {
+				"navigationBarTitleText": "余额提现",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"titleNView": {
+						"buttons": [{
+							"text": "明细",
+							"fontSize": "16px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/score/forwardlist",
+			"style": {
+				"navigationBarTitleText": "提现明细",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/score/cashDetail",
+			"style": {
+				"navigationBarTitleText": "提现详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/editpassword",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/findPassword",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/message",
+			"style": {
+				"navigationBarTitleText": "站内信",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/messageDetail",
+			"style": {
+				"navigationBarTitleText": "消息详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue889",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "20px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/security/push",
+			"style": {
+				"navigationBarTitleText": "推送设置",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/help/index",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ee6742",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					},
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/help/indexNew",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/help/helpDetail",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/help/helpDetailContent",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/help/contact",
+			"style": {
+				"navigationBarTitleText": "帮助",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/tool/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				// "enablePullDownRefresh": false,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "关闭",
+								"float":"left",
+								"fontSize": "16px",
+								"color": "#ffffff"
+							},
+							{
+								"text": "\ue623",
+								"fontSize": "20px",
+								"fontSrc": "/static/uni.ttf",
+								"color": "#ffffff"
+							}
+						],
+						"padding-right": "6px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/appeallist",
+			"style": {
+				"navigationBarTitleText": "申诉中心",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"pullToRefresh": {
+						"color": "#fe6248",
+						"style": "circle"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/help/appealInfo",
+			"style": {
+				"navigationBarTitleText": "申诉详情",
+				"onReachBottomDistance": 60,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue603",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#ffffff"
+						}],
+						"padding-right": "10px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tool/task_rule",
+			"style": {
+				"navigationBarTitleText": "接单规则",
+				"backgroundColor": "#FFFFFF",
+				"app-plus": {
+					"bounceBackground": "#FFFFFF",
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path":"pages/task/doTaskNew",
+			"style":{
+				"navigationStyle": "custom",//取消默认的原生导航栏
+				"style":{
+					"navigationsBarTitleText":"任务大厅"
+				}
+			}
+			
+		},
+		{
+			"path":"pages/task/taskSubmit",
+			"style":{
+				"navigationStyle": "custom",//取消默认的原生导航栏
+				"style":{
+					"navigationsBarTitleText":"任务提交"
+				}
+			}
+			
+		},
+		{
+			"path":"pages/task/doTaskDetailNew",
+			"style":{
+				"navigationStyle": "custom",//取消默认的原生导航栏
+				"style":{
+					"navigationsBarTitleText":"任务大厅"
+				}
+			}
+			
+		},
+		{
+			"path":"pages/task/complaintTask",
+			"style":{
+				"navigationStyle":"custom",
+				"style":{
+					"navigationsBarTitleText":"任务大厅"
+				}
+			}
+		},
+		{
+			"path":"pages/task/taskHistory",
+			"style":{
+				"navigationStyle":"custom",
+				"style":{
+					"navigationsBarTitleText":"任务大厅"
+				}
+			}
+		},
+		{
+			"path":"pages/task/taskMangeNew",
+			"style":{
+				"navigationStyle":"custom",
+				"style":{
+					"navigationsBarTitleText":"任务大厅"
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/activity/poster",
+			"style": {
+				"navigationBarTitleText": "推广海报",
+				"backgroundColor": "#fe6248",
+				"app-plus": {
+					"bounceBackground": "#fe6248",
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},{
+			"path":"pages/message/chat1",
+			 "globalStyle":{
+				 "navigationStyle":"custom"
+			 }
+		}
+	],
+	"condition": {
+		//模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式（list 的索引项）
+		"list": [
+// 			{
+// 			"name": "我的",
+// 			"path": "pages/index/detail",
+// 			"query": "order_sn=D726588926553"
+// 		}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "亿客拉",
+		"navigationBarBackgroundColor": "#FB7180",
+		"backgroundColor": "#ffffff",
+		"onReachBottomDistance": 60
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#FF4B5D",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/footer/footer-index.png",
+				"selectedIconPath": "static/images/footer/footer-index-active.png",
+				"text": "任务大厅"
+			},
+			{
+				"pagePath": "pages/task/index",
+				"iconPath": "static/images/footer/footer-tasked.png",
+				"selectedIconPath": "static/images/footer/footer-tasked-active.png",
+				"text": "已接任务"
+			},
+			// {
+			// 	"pagePath": "pages/task/appeallist",
+			// 	"iconPath": "static/images/footer/footer-appeal.png",
+			// 	"selectedIconPath": "static/images/footer/footer-appeal-act.png",
+			// 	"text": "申诉中心"
+			// },
+			{
+				"pagePath": "pages/message/new_message",
+				"iconPath": "static/images/footer/footer-msg.png",
+				"selectedIconPath": "static/images/footer/footer-msg-active.png",
+				"text": "消息中心"
+			},
+			{
+				"pagePath": "pages/ucenter/index",
+				"iconPath": "static/images/footer/footer-personal.png",
+				"selectedIconPath": "static/images/footer/footer-personal-active.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}

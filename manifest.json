@@ -1,0 +1,205 @@
+{
+    "name" : "亿客拉",
+    "appid" : "__UNI__D620368",
+    "description" : "亿客拉",
+    "versionName" : "1.1.0",
+    "versionCode" : 110,
+    "debug" : false,
+    "networkTimeout" : {
+        "request" : 60000,
+        "connectSocket" : 60000,
+        "uploadFile" : 60000,
+        "downloadFile" : 60000
+    },
+    "app-plus" : {
+        /* 5+App特有相关 */
+        "modules" : {
+            "VideoPlayer" : {},
+            "Maps" : {},
+            "Push" : {},
+            "Contacts" : {}
+        },
+        /* 模块配置 */
+        "softinput" : {
+            "mode" : "adjustResize" // 软键盘弹出模式   
+        },
+        "distribute" : {
+            /* 应用发布信息 */
+            "android" : {
+                /* android打包配置 */
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_MOCK_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_TASKS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+                    "<uses-permission android:name=\"android.permission.USE_FINGERPRINT\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_USER_PRESENT\"/>"
+                ]
+            },
+            "ios" : {
+                "plistcmds" : [
+                    "Set :NSMicrophoneUsageDescription 使用麦克风以快速读取内容",
+                    "Set :NSPhotoLibraryUsageDescription 根据您相册的图片，选择您的资料并提交",
+                    "Set :NSCameraUsageDescription 使用您的相机拍照或拍摄短视频",
+                    "Set :NSPhotoLibraryAddUsageDescription 快速保存商品图片信息到您的相册，以便于您分享"
+                ],
+                "privacyDescription" : {
+                    "NSPhotoLibraryUsageDescription" : "读取您相册的照片，您可以快速上传",
+                    "NSPhotoLibraryAddUsageDescription" : "写入照片到您的相册，方便您快速保存",
+                    "NSCameraUsageDescription" : "获取您的摄像头以拍摄视频",
+                    "NSMicrophoneUsageDescription" : "获取您的麦克风以方便录音",
+                    "NSLocationWhenInUseUsageDescription" : "使用期间访问您的位置",
+                    "NSLocationAlwaysUsageDescription" : "使用期间访问您的位置",
+                    "NSLocationAlwaysAndWhenInUseUsageDescription" : "使用期间访问您的位置",
+                    "NSContactsUsageDescription" : "获取您的通讯录以方便使用"
+                }
+            },
+            "orientation" : [ "portrait-primary" ],
+            /* ios打包配置 */
+            "sdkConfigs" : {
+                "oauth" : {},
+                "payment" : {},
+                "share" : {},
+                "push" : {
+                    "igexin" : {
+                        "appid" : "I7gpXFaDDV7bikKR71dLT7",
+                        "appkey" : "unrLbFgbb0AtVoi6ZL2BL9",
+                        "appsecret" : "JXuX7SLCnB6YW6SbSYl2p5"
+                    }
+                },
+                "speech" : {},
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "a0544e1950a69106c1cc23b9cbad3b43",
+                        "appkey_android" : "ac182921c7603061c8a105c9c7a0c19c"
+                    }
+                }
+            },
+            "icons" : {
+                "ios" : {
+                    "appstore" : "",
+                    "iphone" : {
+                        "app@2x" : "unpackage/iconapp/苹果图标/120.png",
+                        "spotlight@2x" : "unpackage/iconapp/苹果图标/80.png",
+                        "app@3x" : "unpackage/iconapp/苹果图标/180.png",
+                        "spotlight@3x" : "unpackage/iconapp/苹果图标/120.png",
+                        "settings@2x" : "unpackage/iconapp/苹果图标/58.png",
+                        "settings@3x" : "unpackage/iconapp/苹果图标/87.png",
+                        "notification@2x" : "unpackage/iconapp/苹果图标/40.png",
+                        "notification@3x" : "unpackage/iconapp/苹果图标/60.png"
+                    },
+                    "ipad" : {
+                        "app" : "",
+                        "app@2x" : "",
+                        "notification" : "",
+                        "notification@2x" : "",
+                        "proapp@2x" : "",
+                        "settings" : "",
+                        "settings@2x" : "",
+                        "spotlight" : "",
+                        "spotlight@2x" : ""
+                    }
+                },
+                "android" : {
+                    "mdpi" : "unpackage/iconapp/安卓图标/48.png",
+                    "ldpi" : "unpackage/iconapp/安卓图标/48.png",
+                    "hdpi" : "unpackage/iconapp/安卓图标/72.png",
+                    "xhdpi" : "unpackage/iconapp/安卓图标/96.png",
+                    "xxhdpi" : "unpackage/iconapp/安卓图标/144.png",
+                    "xxxhdpi" : "unpackage/iconapp/安卓图标/192.png"
+                }
+            },
+            "splashscreen" : {
+                "android" : {
+                    "hdpi" : "unpackage/iconapp/安卓启动页/420x762.png",
+                    "xhdpi" : "unpackage/iconapp/安卓启动页/720x1242.png",
+                    "xxhdpi" : "unpackage/iconapp/安卓启动页/1080x1882.png"
+                },
+                "ios" : {
+                    "iphone" : {
+                        "retina35" : "unpackage/iconapp/苹果启动页/640x960.png",
+                        "retina40" : "unpackage/iconapp/苹果启动页/640x1136.png",
+                        "retina40l" : "unpackage/iconapp/苹果启动页/1136x640.png",
+                        "retina47" : "unpackage/iconapp/苹果启动页/960x1125.png",
+                        "retina47l" : "",
+                        "retina55" : "unpackage/iconapp/苹果启动页/1242x2208.png",
+                        "retina55l" : "",
+                        "iphonex" : "unpackage/iconapp/苹果启动页/1125x2436.png",
+                        "iphonexl" : "unpackage/iconapp/苹果启动页/1242x2688.png",
+                        "landscape-896h@3x" : "unpackage/iconapp/苹果启动页/2688x1242.png",
+                        "portrait-896h@3x" : "unpackage/iconapp/苹果启动页/1242x2688.png",
+                        "landscape-896h@2x" : "unpackage/iconapp/苹果启动页/1792x828.png",
+                        "portrait-896h@2x" : "unpackage/iconapp/苹果启动页/828x1972.png"
+                    }
+                }
+            }
+        },
+        "splashscreen" : {
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 2000,
+            "alwaysShowBeforeRender" : true
+        },
+        "channel" : "fir-im",
+        "nativePlugins" : {
+            "DCloud-RichAlert" : {
+                "__plugin_info__" : {
+                    "name" : "RichAlert",
+                    "description" : "示例插件",
+                    "platforms" : "Android,iOS",
+                    "url" : "",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : false,
+                    "bought" : -1,
+                    "pid" : "",
+                    "parameters" : {}
+                }
+            }
+        },
+        "usingComponents" : true
+    },
+    /* SDK配置 */
+    "quickapp" : {},
+    /* 快应用特有相关 */
+    "mp-weixin" : {
+        "appid" : "wx4cf547e80597706a",
+        "setting" : {
+            "urlCheck" : false,
+            "minified" : true,
+            "postcss" : false
+        }
+    },
+    "h5" : {
+        "title" : "亿客拉",
+        "devServer" : {
+            "https" : false
+        }
+    }
+}
+/* 小程序特有相关 *//*包名：yuejihua.haopinzhe.com.app*/
+
